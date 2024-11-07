@@ -1,0 +1,76 @@
+body {
+    font-family: "oswald", sans-serif;
+    font-size: 1.5em;
+}
+
+header, footer {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+
+
+header img, footer img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.insta-youtube :hover {
+    opacity: 70%;
+}
+
+
+main {
+    color: white;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    padding: 2em;
+}
+
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+h1 {
+    display: inline-block;
+    border: 2px solid rgb(123, 145, 255);
+    border-radius: 10px;
+    background-color: rgb(123, 145, 255);
+    padding: 10px;
+}
+
+.cadre p {
+    display: inline-block;
+    border: 2px solid rgb(123, 145, 255);
+    border-radius: 10px;
+    background-color: rgb(123, 145, 255);
+    padding: 10px;
+}
